@@ -10,6 +10,8 @@
 
 # Function introduce
 
+在辨識側臉的過程中，發現mtcnn效果不太好，所以加入dlib的人臉辨識，提高辨識效果，只有在兩個模型都無法辨識為人臉時才判斷為沒有人臉。
+
 ##  1-1 detectHumanFaceExist
 check if the human face exists in the input image and return True or False
 
