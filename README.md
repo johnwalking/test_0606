@@ -1,3 +1,9 @@
+# Dataset introduce
+1. side: 側臉
+2. front_side: 正側臉
+3. front: 正臉
+4. not_person: 非人臉
+
 # Install 
 1. pip install mtcnn
 2. pip install dlib
